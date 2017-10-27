@@ -15,6 +15,6 @@ In *notebooks* komen alle jupyter notebooks te staan die gebruikt zijn tijdens h
 
 *reports* is de plek waarin verslagen, presentaties en andere rapportages worden verzameld. De subfolder *figures* bevat afbeeldingen en visualizaties die in de verslagen gebruikt kunnen worden.
 
-*models* bevat getrainde modellen.
+*models* bevat opgeslagen versies van getrainde modellen. Van al deze modellen moet duidelijk zijn hoe deze tot stand zijn gekomen. Denk hierbij aan het documenteren van de gebruikte trainingsdata, model type, model parameters en gebruikte features. Ook kan het handig zijn om bij te houden hoe goed het model heeft gescoord op de validatie data. Wanneer trainingstijden lang zijn en veel verschillende configuraties geprobeerd worden, is het van groot belang dat deze gegevens goed worden bijgehouden. 
 
-*src* bevat alle code die nodig is om het uiteindelijke resultaat te verkrijgen. Denk hierbij aan aparte scripts voor het verkrijgen van data, het voorbewerken van de data, feature engineering, het trainen van modellen, het voorspellen met de getrainde modellen en het maken van visualizaties die gebruikt worden in de verslaglegging. 
+*src* bevat alle code die nodig is om het uiteindelijke resultaat te verkrijgen. Denk hierbij aan aparte scripts voor het verkrijgen van data, het voorbewerken van de data, feature engineering, het trainen van modellen, het voorspellen met de getrainde modellen en het maken van visualizaties die gebruikt worden in de verslaglegging. Idealiter is er een bash-file welke een gerund kan worden, die in één keer het volledige process van data laden, trainen en predictie uit voert. 
